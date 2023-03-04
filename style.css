@@ -1,0 +1,470 @@
+*{
+    /* <!-- Applying default Ruda Font to all --> */
+    font-family: 'Ruda', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+
+.nav-header {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    min-height: 5vh;
+    width: 100vw;
+}
+
+.restaurant-name{
+    padding-left: 3vw;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    font-family: 'Ruda';  
+    font-size: 1.5vw;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+}
+
+.center-blocks{
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    padding: 1vw;
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background: black;
+    display: none;
+    border: none;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    padding-right: 2vw;
+}
+
+.right-icon > img{
+    width: 2vw;
+    padding: 1vw;
+}
+
+
+.banner-top {
+    position: relative;
+    top: 0;  
+}
+
+
+.banner-top > img {
+    width: 100vw;
+    height: auto;
+    opacity: 0.5;
+}
+
+.banner-body {
+    position: absolute;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0) !important;
+    top: 25%;
+    left: 12%;
+    right: 20%;
+    width: 50%;
+}
+
+.banner-body img{
+    width: 60%;
+    height: 5%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.banner-body span{
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vw;
+    letter-spacing: 0.09em;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.banner-body p{
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.3vw;
+    letter-spacing: 0.09em;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.au{
+    margin-top: 2vh;
+}
+.au-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.au-head > h1{
+    text-align: center;
+    align-items: center;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3vw;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    
+}
+
+.au-border-bottom {
+    width: 30vw;
+    height: 2vh;
+    align-self: center;
+}
+
+.au-border-bottom-left {
+    margin-left: 10vw;
+    width: 30vw;
+    height: 2vh;
+    
+}
+
+.au-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.au-body-left{
+    
+    padding-left: 5vw;
+}
+
+
+
+.dough-receipe{
+    width: 40vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    padding-left: 10vw;
+    letter-spacing: 0.09em;
+}
+
+.dough-img {
+    width: 30vw;
+    padding-left: 7vw;
+}
+
+
+.menu-head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    padding-top: 8vw;
+    padding-bottom: 3.5vw;
+    text-align: center;
+}
+
+.mu-border-bottom {
+    width: 30vw;
+    height: 2vh;
+    align-self: center;
+}
+
+.menu-head-body{
+    width: 78vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    text-align: left;
+    padding-top: 2vw;
+}
+
+.menu-grid{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    padding-left: 1vw;
+    padding-top: 2vw;
+}
+
+.menu-grid-items {
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    padding: 1.5vw;
+}
+
+.grid-images > img{
+    width: 15vw;
+}
+
+.grid-details {
+    width: 20vw;
+    padding: 1vw;
+}
+
+.grid-details h3{
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    align-items: center;
+    color: #F2C94C;
+}
+
+.grid-details p{
+    padding-top: 1vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+    color: white;
+}
+
+
+
+.find-us{
+    display: flex;
+    flex-direction: column;
+}
+
+.fu-head{
+    align-items: center;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    padding-top: 7vw;
+    padding-bottom: 5vw;
+    text-align: center;
+}
+
+.fu-border-bottom{
+    width: 30vw;
+    height: 2vh;
+}
+
+.fu-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fu-body p{
+    width: 40vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+    padding-left: 15vw;
+}
+
+
+.fu-body {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+
+.find-us{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    padding-top: 1vh;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5vw;
+    letter-spacing: 0.09em;
+}
+
+
+
+@media (max-width:640px){
+    .nav-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .restaurant-name{
+        padding-bottom: 1vh;
+    }
+    .center{
+        padding-bottom: 1vh ;
+    }
+    .au{
+        margin-top: 0vh;
+    }
+
+    .au-body{
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+        width: 100vw;
+    }
+
+    .au-body-left{
+        width: 100vw;
+    }
+    .au-border-bottom-left{
+        width: 95vw;
+        margin-left: 0vw;
+    }
+
+    .dough-receipe{
+        width: 90vw;
+        padding-left: 3vw;
+    }
+
+    .dough-img{
+        width: 90vw;
+    }
+
+    .menu-head-body{
+        width: 30vw;
+    }
+
+    .menu-grid{
+        display: grid;
+        grid-template-columns: auto;
+        padding-left: 30vw;
+    } 
+
+    .menu-head-body{
+        width: 90vw;
+    }
+
+   
+}
+
+
+.findus-grid{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    
+    gap:80px
+}
+.findus-content{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+}
+.findus-left{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 40px;
+}
+.location span{
+    font-size: 50px;
+}
+.location{
+    font-weight: 700;
+   font-size: 20px;
+   line-height: 40px;
+   letter-spacing: 0.09em;
+   padding-bottom: 20px;
+   display: flex;
+   gap: 20px;
+   align-items: center;
+}
+
+.mobile{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+
+@media (max-width:1250px){
+    .findus-grid{
+       
+        grid-template-columns: auto;
+    }
+    
+}
+
+@media (max-width:895px){
+    .menu-grid{
+        grid-template-columns: 300px;
+    }
+    .map iframe{
+        width: 550px;
+    }
+}
+@media (max-width:330px){
+    .menu-grid{
+        grid-template-columns: 300px;
+    }
+    .map iframe{
+        width: 500px;
+    }
+}
+
+footer{
+    margin-top: 200px;
+    padding: 20px 70px;
+    padding-bottom: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:715px){
+    footer{
+        flex-flow: column wrap;
+        align-items: center;
+    }
+}
+
+@media (max-width:590px){
+    footer{
+        margin-left: 100px;
+    }
+}
