@@ -370,11 +370,15 @@
     .menu-grid{
         display: grid;
         grid-template-columns: auto;
-        padding-left: 30vw;
+        
     } 
 
     .menu-head-body{
         width: 90vw;
+    }
+
+    .menu-grid-items{
+        padding-left: 20vw;
     }
 
    
@@ -429,22 +433,7 @@
     
 }
 
-@media (max-width:895px){
-    .menu-grid{
-        grid-template-columns: 300px;
-    }
-    .map iframe{
-        width: 550px;
-    }
-}
-@media (max-width:330px){
-    .menu-grid{
-        grid-template-columns: 300px;
-    }
-    .map iframe{
-        width: 500px;
-    }
-}
+
 
 footer{
     margin-top: 200px;
