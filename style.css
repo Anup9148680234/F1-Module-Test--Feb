@@ -428,9 +428,8 @@
 
 
 
-@media (max-width:1250px){
-    .find-us-grid{
-       
+@media (max-width:640px){
+    .find-us-grid{  
         grid-template-columns: auto;
     }
     
@@ -455,8 +454,3 @@ footer{
     }
 }
 
-@media (max-width:590px){
-    footer{
-        margin-left: 100px;
-    }
-}
