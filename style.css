@@ -323,6 +323,61 @@
 
 
 
+.find-us-grid{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    
+    gap:80px
+}
+.find-us-content{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+}
+.find-us-left{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+}
+.location span{
+    font-size: 50px;
+}
+.location{
+    font-weight: 700;
+   font-size: 20px;
+   line-height: 40px;
+   letter-spacing: 0.09em;
+   padding-bottom: 20px;
+   display: flex;
+   gap: 20px;
+   align-items: center;
+}
+
+.mobile{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+
+
+
+
+footer{
+    margin-top: 200px;
+    padding: 20px 70px;
+    padding-bottom: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
 @media (max-width:640px){
     .nav-header{
         display: flex;
@@ -383,74 +438,19 @@
     .menu-grid-items{
         padding-left: 20vw;
     }
+    
+    .find-us-grid{  
+        grid-template-columns: auto;
+    }
+    footer{
+        flex-flow: column wrap;
+        align-items: center;
+    }
 
    
 }
 
 
-.find-us-grid{
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-between;
-    
-    gap:80px
-}
-.find-us-content{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 40px;
-    letter-spacing: 0.09em;
-}
-.find-us-left{
-    display: flex;
-    flex-flow: column wrap;
-    gap: 20px;
-}
-.location span{
-    font-size: 50px;
-}
-.location{
-    font-weight: 700;
-   font-size: 20px;
-   line-height: 40px;
-   letter-spacing: 0.09em;
-   padding-bottom: 20px;
-   display: flex;
-   gap: 20px;
-   align-items: center;
-}
-
-.mobile{
-    display: flex;
-    flex-flow: column wrap;
-}
 
 
-
-@media (max-width:640px){
-    .find-us-grid{  
-        grid-template-columns: auto;
-    }
-    
-}
-
-
-
-footer{
-    margin-top: 200px;
-    padding: 20px 70px;
-    padding-bottom: 0;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-@media (max-width:715px){
-    footer{
-        flex-flow: column wrap;
-        align-items: center;
-    }
-}
 
