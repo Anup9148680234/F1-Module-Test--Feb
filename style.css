@@ -304,6 +304,9 @@
     grid-template-rows: 1fr 1fr;
 }
 
+.findus-content{
+    margin-left: 5vw;
+}
 
 
 .find-us{
@@ -385,7 +388,7 @@
 }
 
 
-.findus-grid{
+.find-us-grid{
     margin-top: 50px;
     display: grid;
     grid-template-columns: auto auto;
@@ -393,16 +396,16 @@
     
     gap:80px
 }
-.findus-content{
+.find-us-content{
     font-weight: 400;
     font-size: 20px;
     line-height: 40px;
     letter-spacing: 0.09em;
 }
-.findus-left{
+.find-us-left{
     display: flex;
     flex-flow: column wrap;
-    gap: 40px;
+    gap: 20px;
 }
 .location span{
     font-size: 50px;
